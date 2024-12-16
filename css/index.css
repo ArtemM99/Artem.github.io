@@ -1,0 +1,63 @@
+.postlist {
+  width: 900px;
+  line-height: normal;
+  color: white;
+  opacity: 0;
+  animation: animbody 5s forwards;
+}
+.post {
+  width: 950px;
+  color: white;
+}
+.name {
+  width: 290px;
+  font-size: large;
+  color: white;
+  position: relative;
+  left: 2cm;
+  bottom: 10cm;
+}
+.circle {
+  display: flex;
+  border-radius: 50%;
+  width: 6cm;
+  height: 6cm;
+}
+.name1 {
+  position: relative;
+  left: 1.5cm;
+  top: 0.5cm;
+  color: white;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+footer {
+  color: white;
+}
+tel img {
+  width: 7%;
+}
+wats img {
+  width: 7%;
+}
+@keyframes animbody {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  opacity: 0;
+  animation: animbody 2s forwards;
+}
+h3 {
+  text-align: center;
+  line-height: 2cm;
+}
